@@ -1,68 +1,24 @@
-# P1 Sinatra Restful Crud
+### Purpose
+The Sinatra Skeleton:
 
-##Learning Competencies
+1. Provides a foundation for building challenges.
+2. Demonstrates a reasonable set of practices around building Sinatra applications.
+3. Eases the transition to Rails for Dev Bootcamp students
+4. Demonstrates that it is not **required** that all models in `app/models` be
+   `ActiveRecord` backed!
+5. Gives bare-bones RSpec skeleton wherewith to start building the practice of testing
 
-* Implement CRUD in a MVC application (using Sinatra)
-* Use Active Record to perform CRUD operations on a database
-* Use RESTful routes
+### Quickstart
 
-##Summary
+1.  `bundle install`
+2.  `shotgun config.ru`
 
-Using Sinatra, create a simple notes application with a single notes table in
-the database and all
-[CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) routes and
-views.
+### Contributing
 
-##Releases
+We would love for you to help make the skeleton more awesome, There are three ways to contribute:
 
-## Skeleton
+1. Ask for a bug fix or enhancement!
+2. Submit a pull request for a bug fix or enhancement!
+3. Code review an open pull request!
 
-Clone the [Sinatra Skeleton](../../../sinatra-skeleton-mvc) into the current
-directory with: `git clone SINATRA_SKELETON_URI`
-
-Check reality by running `ls`, you should see:
-
-```
-README.md            sinatra-skeleton-mvc
-```
-
-`cd` into the `sinatra-skeleton-mvc` directory.
-
-Remove the `.git` directory from `sinatra-skeleton-mvc` with `rm -rf .git/`
-
-Add the `sinatra-skeleton-mvc` directory to the project with `git add .` then
-commit with `git commit -m "Adds Sinatra Skeleton."`
-
-###Release 0 : RESTful CRUD
-
-Modify the skeleton code to achieve the following functionality:
-
-1. A user Create a new note.
-2. A user can Read all the notes created.
-3. A user can Update a note.
-4. A user can Delete an existing note.
-5. Verify that a user really wants to delete a particular note.
-
-Your note table should have a `title` and `content` field.  You should use
-[RESTful routes](http://guides.rubyonrails.org/routing.html) for each
-operation.
-
-
-### Release 1 : Add Partials
-
-Use Partials to display the new note entry form and the listing of all notes
-on the same page.  You may feel free to implement another view for editing
-a particular note.
-
-### Release 2 : Add AJAX (optional)
-
-Redo your application so that each CRUD route is triggered from an AJAX
-request.  When necessary, return a partial to update your display.
-
-<!-- ##Optimize Your Learning  -->
-
-##Resources
-
-* [Sinatra Crud Tutorial ](http://net.tutsplus.com/tutorials/ruby/singing-with-sinatra/)
-* [Rendering Partials in Sinatra](http://www.sinatrarb.com/faq.html#partials)
-* [RESTful routes](http://guides.rubyonrails.org/routing.html)
+Be prepared to give and receive specific, actionable, and kind feedback!
